@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="./index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+         <img src="./marko.jpeg" alt="marko">
+
+        <form action="">
+            <label for="kupac">Купац: &nbsp; <span class="entity">&#42; </span> </label> 
+            <input type="text" id="kupac" name="kupac"> <br>
+
+            <label for="dino">Диносаурус: &nbsp; <span class="entity">&#42; </span></label> 
+            <select id="dino" name="dino">
+                <option value="0" id="selected">-</option>
+                <option value="scipionyx">Scipionyx</option>
+                <option value="becklespinax">Becklespinax</option>
+                <option value="sciurumimus">Sciurumimus</option>
+                <option value="hypsilophodon">Hypsilophodon</option>
+                <option value="dacentrurus">Dacentrurus</option>
+                <option value="iguanodon">Iguanodon</option>
+                <option value="asylosaurus">Asylosaurus</option>
+                <option value="efraasia">Efraasia</option>
+                <option value="cryptosaurus">Cryptosaurus</option>
+              </select> <br>
+
+            <label for="napomena">Напомена:</label> 
+            <textarea id="napomena" name="napomena" ></textarea> <br>
+
+            <input type="submit" value="Наручи">
+        </form>
+
+        </div>
+      
+
+        <div class="narudzbine">
+            <input type="button" id="sviKupci" value="Испиши све наруџбине">
+        </div>
+    </header> 
+
+    <main>
+    <div class="naslov">
+        <h1>Наруџбине</h1>
+    </div>
+
+    <div class="kupci">
+
+    </div>
+    </main>
+
+</body>
+</html>
